@@ -1,0 +1,32 @@
+.intro {
+	margin: 55px;
+}
+
+.tabs {
+	margin: auto;
+	width: 50%;
+	border: 3px solid black;
+	padding: 10px;
+}
+
+.subIntro {
+	color: dimgrey;
+	font-size: 20px;
+}
+
+.skip {
+	color: dimgrey;
+	background: white;
+	font-size: 26px;
+	margin-top: 50px;
+	margin-bottom: 2px;
+	border: none;
+}
+
+button {
+	background: black;
+	color: whitesmoke;
+	font-size: 26px;
+	margin: 10px;
+	border-radius: 18px;
+}

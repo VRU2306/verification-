@@ -1,0 +1,79 @@
+div.modal-part-box {
+	height: 50%;
+}
+
+img {
+	width: 30px;
+	height: 30px;
+	margin-top: 35px;
+}
+
+.button-layout {
+    width: 210px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    align-content: center;
+}
+
+.sign-up-btn {
+    background-color: white;
+    color: dimgray;
+    position: center;
+    /* font-family: 'Courier New', Courier, monospace;  */
+}
+
+.confirm-btn {    
+    font-size: 9px;
+    background-color: #171523;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-styles {
+    background-color: white;
+    color: #171523;
+    text-align: center;
+}
+
+.heading-text{
+    font-size: 12px;
+	margin-top: auto;
+    margin-bottom: 26px;
+}
+
+.bottom-text {
+    color: dimgray;
+    font-size: 8px;
+}
+
+.bottom-text > a {
+    color: dimgray;
+	text-decoration: none;
+}
+
+.modal {
+    position: absolute;
+    top: 33%;
+    left: 34%;
+    right: 100px;
+    bottom: 100px; 
+    max-width: 320px;
+    max-height: 250px; 
+}
+
+.modal:focus {
+    outline: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+}
